@@ -24,7 +24,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 @interface PDTSimpleCalendarViewController () <PDTSimpleCalendarViewCellDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (nonatomic, strong) PDTSimpleCalendarViewWeekdayHeader *headerView;
-@property (nonatomic, strong) UICollectionView *collectionView;
 
 @property (nonatomic, strong) UILabel *overlayView;
 @property (nonatomic, strong) NSDateFormatter *headerDateFormatter; //Will be used to format date in header view and on scroll.

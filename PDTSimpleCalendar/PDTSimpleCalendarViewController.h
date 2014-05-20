@@ -62,6 +62,8 @@
 
 - (NSDate *)clampDate:(NSDate *)date toComponents:(NSUInteger)unitFlags;
 
+@property (nonatomic, strong) UICollectionView *collectionView;
+
 
 /** @name Getting Notified of changes */
 
