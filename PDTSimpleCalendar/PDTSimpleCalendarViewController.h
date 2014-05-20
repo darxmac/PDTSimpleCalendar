@@ -54,6 +54,13 @@
  */
 @property (nonatomic, strong) UIColor *overlayTextColor;
 
+/**
+ * NSSet of dates that should be disabled
+ */
+@property (nonatomic, strong) NSSet *disabledDates;
+
+
+- (NSDate *)clampDate:(NSDate *)date toComponents:(NSUInteger)unitFlags;
 
 
 /** @name Getting Notified of changes */
